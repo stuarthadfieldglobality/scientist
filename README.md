@@ -1,20 +1,20 @@
 # Scientist
 
-[![Version](https://img.shields.io/npm/v/@fightmegg/scientist.svg)](https://www.npmjs.com/package/@fightmegg/scientist)
-[![Downloads](https://img.shields.io/npm/dm/@fightmegg/scientist.svg)](https://www.npmjs.com/package/@fightmegg/scientist)
-[![CircleCI](https://circleci.com/gh/fightmegg/scientist/tree/master.svg?style=svg)](https://circleci.com/gh/fightmegg/scientist/tree/master)
+[![Version](https://img.shields.io/npm/v/@stuarthadfieldglobality/scientist.svg)](https://www.npmjs.com/package/@stuarthadfieldglobality/scientist)
+[![Downloads](https://img.shields.io/npm/dm/@stuarthadfieldglobality/scientist.svg)](https://www.npmjs.com/package/@stuarthadfieldglobality/scientist)
+[![CircleCI](https://circleci.com/gh/stuarthadfieldglobality/scientist/tree/master.svg?style=svg)](https://circleci.com/gh/stuarthadfieldglobality/scientist/tree/master)
 
 > A JavaScript library for carefully refactoring critical paths, port of [GitHub Scientist](https://github.com/github/scientist)
 
 ## Installation
 
-`npm install @fightmegg/scientist`
+`npm install @stuarthadfieldglobality/scientist`
 
 
 ## Usage
 
 ```js
-import Scientist from '@fightmegg/scientist'
+import Scientist from '@stuarthadfieldglobality/scientist'
 
 const experiment = new Scientist('experiment #1');
 experiment.use(() => 12); // old way
@@ -159,17 +159,17 @@ The structure of `result` is:
     "error": false,
     "control": {
         "duration": 100,
-        "value": 20, 
-        "cleaned_value": 20, 
+        "value": 20,
+        "cleaned_value": 20,
         "startTime": 100002320,
-        "endTime": 1000021000, 
+        "endTime": 1000021000,
         "error": "error ...",
     },
     "candidate": {
         "duration": 100,
-        "value": 20, 
-        "cleaned_value": 20, 
-        "startTime": 100002320, 
+        "value": 20,
+        "cleaned_value": 20,
+        "startTime": 100002320,
         "endTime": 1000021000,
         "error": "error ...",
     },
