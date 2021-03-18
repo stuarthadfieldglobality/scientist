@@ -1,6 +1,6 @@
 {
   "name": "@stuarthadfieldglobality/scientist",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A JavaScript library for carefully refactoring critical paths",
   "main": "index.js",
   "module": "index.esm.js",
