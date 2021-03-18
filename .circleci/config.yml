@@ -15,7 +15,7 @@ aliases:
   - &authenticate-github-registry
     name: Authenticate with Github Package Registry
     command: |
-      echo "//npm.pkg.github.com/:_authToken=${GITHUB_REGISTRY_TOKEN}" > ~/scientist/.npmrc
+      echo "//npm.pkg.github.com/:_authToken=${GH_REGISTRY_TOKEN}" > ~/scientist/.npmrc
       echo "git-tag-version=false" >> ~/scientist/.npmrc
       echo "allow-same-version=true" >> ~/scientist/.npmrc
   - &authenticate-npm-registry

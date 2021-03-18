@@ -1,6 +1,6 @@
 {
   "name": "@stuarthadfieldglobality/scientist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript library for carefully refactoring critical paths",
   "main": "index.js",
   "module": "index.esm.js",
@@ -23,9 +23,9 @@
   "author": "Ollie Jennings",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fightmegg/scientist/issues"
+    "url": "https://github.com/stuarthadfieldglobality/scientist/issues"
   },
-  "homepage": "https://github.com/fightmegg/scientist#readme",
+  "homepage": "https://github.com/stuarthadfieldglobality/scientist#readme",
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/node": "^7.10.5",
